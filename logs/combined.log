@@ -1,0 +1,284 @@
+2024-05-29T09:51:36.786Z [info]: Incoming request: POST /api/bid
+2024-05-29T09:51:36.863Z [info]: Response: 400 Bad Request; 62b sent
+2024-05-29T09:51:54.557Z [info]: Incoming request: POST /api/bid
+2024-05-29T09:51:54.569Z [info]: Response: 400 Bad Request; 62b sent
+2024-05-29T09:53:54.431Z [info]: Incoming request: POST /api/bid
+2024-05-29T09:53:54.444Z [info]: Response: 400 Bad Request; 62b sent
+2024-05-29T09:54:03.527Z [info]: Incoming request: POST /api/bid
+2024-05-29T09:54:03.533Z [info]: Response: 400 Bad Request; 62b sent
+2024-05-29T09:57:04.945Z [info]: Incoming request: POST /api/bid
+2024-05-29T09:57:04.958Z [info]: Response: 400 Bad Request; 62b sent
+2024-05-29T09:59:05.915Z [info]: Incoming request: POST /api/bid
+2024-05-29T09:59:06.011Z [info]: Response: 201 Created; 98b sent
+2024-05-29T09:59:41.455Z [info]: Incoming request: POST /api/bid
+2024-05-29T09:59:41.551Z [info]: Response: 201 Created; 98b sent
+2024-05-29T10:20:08.255Z [info]: Incoming request: POST /api/bid
+2024-05-29T10:20:08.279Z [info]: Response: 401 Unauthorized; 23b sent
+2024-05-29T10:20:35.935Z [info]: Incoming request: POST /api/users/login
+2024-05-29T10:20:36.038Z [info]: Response: 401 Unauthorized; 30b sent
+2024-05-29T10:25:19.009Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:25:19.096Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T10:25:28.464Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:25:28.571Z [info]: Response: 400 Bad Request; 66b sent
+2024-05-29T10:25:57.774Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:25:57.929Z [info]: Response: 400 Bad Request; 30b sent
+2024-05-29T10:27:12.240Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:27:12.442Z [info]: Response: 400 Bad Request; 30b sent
+2024-05-29T10:27:18.074Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:27:18.185Z [info]: Response: 400 Bad Request; 30b sent
+2024-05-29T10:27:23.535Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:27:23.636Z [info]: Response: 400 Bad Request; 30b sent
+2024-05-29T10:28:15.977Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:28:16.183Z [info]: Response: 400 Bad Request; 30b sent
+2024-05-29T10:28:50.729Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T10:28:51.123Z [info]: Response: 201 Created; 201b sent
+2024-05-29T10:29:23.730Z [info]: Incoming request: POST /api/users/login
+2024-05-29T10:29:23.853Z [info]: Response: 200 OK; 433b sent
+2024-05-29T10:30:10.403Z [info]: Incoming request: POST /api/bid
+2024-05-29T10:30:10.480Z [info]: Response: 201 Created; 98b sent
+2024-05-29T11:16:17.166Z [info]: Incoming request: GET /api/items
+2024-05-29T11:16:17.192Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:16:26.482Z [info]: Incoming request: GET /api/items
+2024-05-29T11:16:26.485Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:16:44.596Z [info]: Incoming request: GET /api/items
+2024-05-29T11:16:44.611Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:17:31.044Z [info]: Incoming request: GET /api/items
+2024-05-29T11:17:31.063Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:17:50.749Z [info]: Incoming request: GET /api/items/getfilter
+2024-05-29T11:17:50.850Z [info]: Response: 500 Internal Server Error; 596b sent
+2024-05-29T11:19:19.079Z [info]: Incoming request: GET /api/items/getfilter
+2024-05-29T11:19:19.095Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:31:51.228Z [info]: Incoming request: POST /api/users/login
+2024-05-29T11:31:51.344Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:33:03.135Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T11:33:03.291Z [info]: Response: 201 Created; 210b sent
+2024-05-29T11:35:53.756Z [info]: Incoming request: POST /api/users/login
+2024-05-29T11:35:53.963Z [info]: Response: 500 Internal Server Error; 41b sent
+2024-05-29T11:37:36.921Z [info]: Incoming request: POST /api/users/login
+2024-05-29T11:37:37.092Z [info]: Response: 200 OK; 445b sent
+2024-05-29T11:39:38.766Z [info]: Incoming request: GET /api/users/getProfile
+2024-05-29T11:39:38.787Z [info]: Response: 200 OK; 187b sent
+2024-05-29T11:41:18.570Z [info]: Incoming request: POST /api/items/addItem
+2024-05-29T11:41:18.573Z [info]: Response: 401 Unauthorized; 23b sent
+2024-05-29T11:41:36.037Z [info]: Incoming request: POST /api/items/addItem
+2024-05-29T11:41:36.102Z [info]: Response: 200 OK; 341b sent
+2024-05-29T11:42:23.869Z [info]: Incoming request: GET /api/items/getallItems?page=2&limit=3
+2024-05-29T11:42:23.902Z [info]: Response: 200 OK; 65b sent
+2024-05-29T11:42:47.517Z [info]: Incoming request: GET /api/items/getallItems?page=1&limit=3
+2024-05-29T11:42:47.532Z [info]: Response: 200 OK; 907b sent
+2024-05-29T11:43:30.255Z [info]: Incoming request: PUT /api/items?id=1
+2024-05-29T11:43:30.258Z [info]: Response: 401 Unauthorized; 23b sent
+2024-05-29T11:44:13.133Z [info]: Incoming request: PUT /api/items?id=1
+2024-05-29T11:44:13.154Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:44:35.688Z [info]: Incoming request: PUT /api/items?id=1
+2024-05-29T11:44:35.702Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:47:11.355Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:47:11.378Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:48:35.091Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:48:35.181Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:48:36.826Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:48:36.837Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:49:24.781Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:49:24.876Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:49:52.003Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:49:52.020Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:49:54.004Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:49:54.032Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:51:19.833Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:51:19.850Z [info]: Response: 500 Internal Server Error; 40b sent
+2024-05-29T11:51:33.692Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:51:33.746Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:52:22.156Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:52:22.223Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:52:41.286Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:52:41.341Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:53:06.986Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:53:07.054Z [info]: Response: 200 OK; 274b sent
+2024-05-29T11:53:36.634Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:53:36.688Z [info]: Response: 200 OK; 274b sent
+2024-05-29T11:54:00.527Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:54:00.583Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:54:49.223Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:54:49.279Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:55:27.306Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:55:27.373Z [info]: Response: 200 OK; 274b sent
+2024-05-29T11:56:56.129Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:56:56.183Z [info]: Response: 500 Internal Server Error; 46b sent
+2024-05-29T11:57:09.575Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:57:09.630Z [info]: Response: 200 OK; 274b sent
+2024-05-29T11:57:27.086Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:57:27.137Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:57:37.467Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:57:37.519Z [info]: Response: 403 Forbidden; 23b sent
+2024-05-29T11:57:48.608Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:57:48.667Z [info]: Response: 200 OK; 274b sent
+2024-05-29T11:58:08.167Z [info]: Incoming request: PUT /api/items?id=4
+2024-05-29T11:58:08.252Z [info]: Response: 200 OK; 274b sent
+2024-05-29T11:59:00.407Z [info]: Incoming request: GET /api/items?id=1
+2024-05-29T11:59:00.415Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T11:59:05.571Z [info]: Incoming request: GET /api/items?id=4
+2024-05-29T11:59:05.578Z [info]: Response: 200 OK; 274b sent
+2024-05-29T12:01:29.941Z [info]: Incoming request: DELETE /api/items?id=4
+2024-05-29T12:01:29.968Z [info]: Response: 200 OK; 26b sent
+2024-05-29T12:05:04.103Z [info]: Incoming request: GET /api/items/getfilter
+2024-05-29T12:05:04.129Z [info]: Response: 400 Bad Request; 36b sent
+2024-05-29T12:05:32.624Z [info]: Incoming request: GET /api/items/getfilter
+2024-05-29T12:05:32.694Z [info]: Response: 500 Internal Server Error; 596b sent
+2024-05-29T12:05:56.803Z [info]: Incoming request: GET /api/bid
+2024-05-29T12:05:56.813Z [info]: Response: 404 Not Found; 40b sent
+2024-05-29T12:06:04.146Z [info]: Incoming request: GET /api/bid
+2024-05-29T12:06:04.150Z [info]: Response: 404 Not Found; 40b sent
+2024-05-29T12:06:44.557Z [info]: Incoming request: POST /api/bid
+2024-05-29T12:06:44.560Z [info]: Response: 400 Bad Request; 36b sent
+2024-05-29T12:07:17.559Z [info]: Incoming request: POST /api/bid
+2024-05-29T12:07:17.570Z [info]: Response: 404 Not Found; 28b sent
+2024-05-29T12:07:44.222Z [info]: Incoming request: POST /api/bid
+2024-05-29T12:07:44.252Z [info]: Response: 201 Created; 98b sent
+2024-05-29T12:09:01.962Z [info]: Incoming request: GET /api/bid
+2024-05-29T12:09:01.971Z [info]: Response: 200 OK; 96b sent
+2024-05-29T13:44:02.728Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T13:44:02.947Z [info]: Response: 201 Created; 214b sent
+2024-05-29T13:44:09.948Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T13:44:10.091Z [info]: Response: 201 Created; 216b sent
+2024-05-29T13:44:18.753Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T13:44:18.844Z [info]: Response: 201 Created; 218b sent
+2024-05-29T13:56:09.830Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T13:56:09.939Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:10:04.544Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:10:04.647Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:10:11.820Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:10:11.824Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:10:25.460Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:10:25.475Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:10:45.294Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:10:45.406Z [info]: Response: 201 Created; 222b sent
+2024-05-29T14:19:45.239Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:19:45.270Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:27:20.861Z [info]: Incoming request: GET /api/users/login
+2024-05-29T14:27:20.870Z [info]: Response: 404 Not Found; 154b sent
+2024-05-29T14:27:20.920Z [info]: Incoming request: GET /favicon.ico
+2024-05-29T14:27:20.925Z [info]: Response: 404 Not Found; 150b sent
+2024-05-29T14:39:44.128Z [info]: Incoming request: POST /api/users/login
+2024-05-29T14:39:44.233Z [info]: Response: 200 OK; 445b sent
+2024-05-29T14:40:13.011Z [info]: Incoming request: GET /
+2024-05-29T14:40:13.013Z [info]: Response: 200 OK; 17b sent
+2024-05-29T14:40:13.110Z [info]: Incoming request: GET /favicon.ico
+2024-05-29T14:40:13.112Z [info]: Response: 404 Not Found; 150b sent
+2024-05-29T14:46:25.041Z [info]: Incoming request: GET /
+2024-05-29T14:46:25.043Z [info]: Response: 200 OK; 17b sent
+2024-05-29T14:47:36.826Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:47:36.855Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:17.419Z [info]: Incoming request: GET /api/users/getProfile
+2024-05-29T14:48:17.443Z [info]: Response: 400 Bad Request; 36b sent
+2024-05-29T14:48:26.283Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:26.376Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:32.839Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:32.846Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:32.917Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:32.940Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:41.754Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:41.759Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:42.068Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:42.076Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:43.178Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:43.183Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:43.304Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:43.310Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:44.039Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:44.045Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:44.313Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:44.318Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:45.022Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:45.028Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:45.283Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:45.288Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:46.762Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:46.767Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:47.099Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:47.106Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:47.685Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:47.691Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:47.974Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:47.978Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:48.091Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:48.096Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:48.912Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:48.917Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:49.322Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:49.325Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:49.359Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:49.362Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:49.831Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:49.835Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:49.914Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:49.918Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:50.245Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:50.249Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:50.757Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:50.762Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:50.947Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:50.970Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:51.335Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:51.339Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:51.734Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:51.739Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:51.836Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:51.839Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:52.156Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:52.159Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:52.557Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:52.562Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:52.760Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:52.763Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:52.960Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:52.962Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:53.372Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:53.375Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:53.805Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:53.807Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:54.095Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:54.098Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:54.224Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:54.227Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:54.635Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:54.639Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:55.058Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:55.062Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:55.079Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:55.083Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:48:55.530Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:48:55.533Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:49:18.315Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:49:18.380Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:49:18.949Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:49:18.954Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:49:19.331Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:49:19.337Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:49:20.627Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:49:20.631Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:49:21.580Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:49:21.585Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:49:21.682Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:49:21.686Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:49:22.648Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:49:22.654Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:50:54.266Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:50:54.343Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:51:51.262Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:51:51.348Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:51:55.708Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:51:55.713Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:52:03.696Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:52:03.701Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T14:52:22.560Z [info]: Incoming request: POST /api/users/signup
+2024-05-29T14:52:22.588Z [info]: Response: 400 Bad Request; 33b sent
+2024-05-29T19:14:23.240Z [info]: Incoming request: POST /api/notification
+2024-05-29T19:14:23.329Z [info]: Response: 201 Created; 196b sent
+2024-05-29T19:15:31.527Z [info]: Incoming request: GET /api/notification
+2024-05-29T19:15:31.544Z [info]: Response: 200 OK; 56b sent
+2024-05-29T19:18:44.226Z [info]: Incoming request: GET /api/notification
+2024-05-29T19:18:44.280Z [info]: Response: 200 OK; 56b sent
+2024-05-29T19:19:30.972Z [info]: Incoming request: GET /api/notification
+2024-05-29T19:19:31.024Z [info]: Response: 200 OK; 1493b sent
+2024-05-29T19:20:39.575Z [info]: Incoming request: GET /api/notification
+2024-05-29T19:20:39.635Z [info]: Response: 200 OK; 1504b sent
